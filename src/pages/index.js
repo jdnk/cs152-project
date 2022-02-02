@@ -5,7 +5,7 @@ import {start, Start, rainbow, StyledText, Content, ContentGroup, Glow, Sub, Bod
 
 const IndexPage = () => {
   return (
-    <div style={{backgroundColor: 'black'; background-size: 'cover'}}>
+    <div style={{backgroundColor: 'black'}}>
       <Start>
           <Content>
             <ContentGroup>
