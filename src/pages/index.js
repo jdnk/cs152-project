@@ -1,8 +1,6 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import styled, { keyframes } from 'styled-components'
-import Empty from '../assets/cursor/empty.svg'
-import Filled from '../assets/cursor/filled.svg'
 import {start, Start, rainbow, StyledText, Content, ContentGroup, Parent} from '../components/styles.js'
 
 const indexPage = () => {
