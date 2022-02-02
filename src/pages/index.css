@@ -4,9 +4,16 @@ html {
   background-color: #000000;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
+}
 
-  ::selection {
-    color: #000000;
-    background-color: #ffffff;
-  }
+body {
+  color: #ffffff;
+  background-color: #000000;
+  margin: 0;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  -o-hyphens: auto;
+  word-break: break-word;
 }
