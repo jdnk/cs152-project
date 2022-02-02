@@ -166,6 +166,8 @@ const Child = styled.div`
 const Sub = styled.div`
   text-transform: uppercase;
   font-size: 30px;
+  font-family: 'Helvetica', 'Helvetica Neue', 'Arial', sans-serif;
+  color: #ffffff;
 
   @media (max-width: 1024px) {
     font-size: 25px;

@@ -1,10 +1,11 @@
 import * as React from "react"
 import * as Link from "gatsby-link"
 import styled, { keyframes } from "styled-components"
-import {start, Start, rainbow, StyledText, Content, ContentGroup, Glow, Sub, Body, Parent} from "../components/styles.js"
+import {start, Start, rainbow, StyledText, Content, ContentGroup, Glow, Sub, Body, Parent, Bg} from "../components/styles.js"
 
 const IndexPage = () => {
   return (
+    <Bg>
     <div>
       <Start>
         <Content>
@@ -26,6 +27,7 @@ const IndexPage = () => {
         </Content>
       </Start>
     </div>
+    </Bg>
   )
 }
 
