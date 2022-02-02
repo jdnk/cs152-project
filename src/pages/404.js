@@ -4,7 +4,7 @@ import styled, { keyframes } from 'styled-components'
 import {start, Start, rainbow, StyledText, Content, ContentGroup, Parent} from '../components/styles.js'
 
 const NotFoundPage = () => {
-  [hover, setHover] = useState(false)
+  const [hover, setHover] = useState(false)
 
   const mouse = () => {
     setHover(!hover)
