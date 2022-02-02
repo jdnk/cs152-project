@@ -3,7 +3,6 @@ import { graphql } from 'gatsby'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 
-import Header from '../components/Header'
 import './index.css'
 
 const Layout = ({ children, data }) => (
@@ -17,7 +16,6 @@ const Layout = ({ children, data }) => (
     >
     <link rel='icon' href={favicon} />
     </Helmet>
-    <Header />
     {children()}
   </div>
 )
