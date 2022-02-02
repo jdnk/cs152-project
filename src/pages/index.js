@@ -1,4 +1,4 @@
-import React from 'react'
+import * as React from 'react'
 import Link from 'gatsby-link'
 import styled, { keyframes } from 'styled-components'
 import {start, Start, rainbow, StyledText, Content, ContentGroup, Parent} from '../components/styles.js'
