@@ -1,0 +1,12 @@
+html {
+  font-family: 'Helvetica', 'Helvetica Neue', 'Arial', sans-serif;
+  color: #ffffff;
+  background-color: #000000;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+
+  ::selection {
+    color: #000000;
+    background-color: #ffffff;
+  }
+}
