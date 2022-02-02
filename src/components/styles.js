@@ -228,4 +228,4 @@ const BodyImage = styled.div`
   }
 `
 
-export {start, Start, rainbow, StyledText, Content, ContentGroup, Parent, Child, Sub, Body, StyledLink, Glow, BodyImage};
+export {Bg, start, Start, rainbow, StyledText, Content, ContentGroup, Parent, Child, Sub, Body, StyledLink, Glow, BodyImage};
