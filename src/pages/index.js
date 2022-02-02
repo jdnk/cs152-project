@@ -3,7 +3,7 @@ import Link from 'gatsby-link'
 import styled, { keyframes } from 'styled-components'
 import {start, Start, rainbow, StyledText, Content, ContentGroup, Parent} from '../components/styles.js'
 
-const indexPage = () => {
+const IndexPage = () => {
   return (
     <div>
       <Start>
