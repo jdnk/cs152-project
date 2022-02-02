@@ -4,6 +4,10 @@ import styled, { keyframes } from 'styled-components'
 import Empty from '../assets/cursor/empty.svg'
 import Filled from '../assets/cursor/filled.svg'
 
+const Bg = styled.div`
+  background-color: #000000;
+`;
+
 const start = keyframes`
   0% {
     opacity: 0;
@@ -90,7 +94,6 @@ const Content = styled.div`
   z-index: 10;
   height: 100%
   background-size: cover;
-  background-color: #000000;
   background-position: center;
   cursor: url(../assets/cursor/empty.svg), auto;
   position: float;
@@ -214,4 +217,4 @@ const BodyImage = styled.div`
   }
 `
 
-export {start, Start, rainbow, StyledText, Content, ContentGroup, Parent, Child, Sub, Body, StyledLink, Glow, BodyImage};
+export {Bg, start, Start, rainbow, StyledText, Content, ContentGroup, Parent, Child, Sub, Body, StyledLink, Glow, BodyImage};
