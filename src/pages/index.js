@@ -5,8 +5,8 @@ import {start, Start, rainbow, StyledText, Content, ContentGroup, Glow, Sub, Bod
 
 const IndexPage = () => {
   return (
-    <Bg>
     <div>
+    <Bg>
       <Start>
         <Content>
           <ContentGroup>
@@ -26,8 +26,8 @@ const IndexPage = () => {
           </ContentGroup>
         </Content>
       </Start>
-    </div>
     </Bg>
+    </div>
   )
 }
 
