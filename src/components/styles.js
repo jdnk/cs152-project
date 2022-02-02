@@ -23,58 +23,47 @@ const Start = styled.div`
 
 const rainbow = keyframes`
   0% {
+    color: #ffe0e0;
+  }
 
-        color: #ffe0e0;
-      }
+  10% {
+    color: #ffe1ac;
+  }
 
-      10% {
+  20% {
+    color: #fffaa8;
+  }
 
-        color: #ffe1ac;
-      }
+  30% {
+    color: #bffaa8;
+  }
 
-      20% {
+  40% {
+    color: #bff3e0;
+  }
 
-        color: #fffaa8;
-      }
+  50% {
+    color: #9fe0f8;
+  }
 
-      30% {
+  60% {
+    color: #9fbaed;
+  }
 
-        color: #bffaa8;
-      }
+  70% {
+    color: #ad99d8;
+  }
+  80% {
+    color: #9f7af8;
+  }
 
-      40% {
+  90% {
+    color: #c48bf6;
+  }
 
-        color: #bff3e0;
-      }
-
-      50% {
-
-        color: #9fe0f8;
-      }
-
-      60% {
-
-        color: #9fbaed;
-      }
-
-      70% {
-
-        color: #ad99d8;
-      }
-      80% {
-
-        color: #9f7af8;
-      }
-
-      90% {
-
-        color: #c48bf6;
-      }
-
-      100% {
-
-        color: #e6b1f6;
-      }
+  100% {
+    color: #e6b1f6;
+  }
 `;
 
 const StyledText = styled.span`
@@ -101,7 +90,7 @@ const Content = styled.div`
   z-index: 10;
   height: 100%
   background-size: cover;
-  background-color: #ffffff;
+  background-color: #000000;
   background-position: center;
   cursor: url(../assets/cursor/empty.svg), auto;
   position: float;
