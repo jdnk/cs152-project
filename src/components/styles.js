@@ -4,10 +4,6 @@ import styled, { keyframes } from 'styled-components'
 import Empty from '../assets/cursor/empty.svg'
 import Filled from '../assets/cursor/filled.svg'
 
-const Bg = styled.div`
-  background-color: #000000;
-`;
-
 const start = keyframes`
   0% {
     opacity: 0;
@@ -217,4 +213,4 @@ const BodyImage = styled.div`
   }
 `
 
-export {Bg, start, Start, rainbow, StyledText, Content, ContentGroup, Parent, Child, Sub, Body, StyledLink, Glow, BodyImage};
+export {start, Start, rainbow, StyledText, Content, ContentGroup, Parent, Child, Sub, Body, StyledLink, Glow, BodyImage};
