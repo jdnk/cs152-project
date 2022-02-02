@@ -1,44 +1,36 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Link from 'gatsby-link'
 import styled, { keyframes } from 'styled-components'
 import Empty from '../assets/cursor/empty.svg'
 import Filled from '../assets/cursor/filled.svg'
 import {start, Start, rainbow, StyledText, Content, ContentGroup, Parent} from '../components/styles.js'
 
-class NotFoundPage extends React.Component {
-  constructor(props) {
-    super(props)
-
-    this.state = {
-      hover: false
-    }
-  }
+const NotFoundPage = () => {
+  const [hover, setHover] = useState(false)
 
   mouseOver = () => {
-    this.setState({hover: true})
+    setHover(!hover)
   }
 
   mouseOut = () => {
-    this.setState({hover: false})
+    setHover(!hover)
   }
 
-  render() {
-    return (
-      <div>
-        <Start>
-          <Content>
-            <ContentGroup>
-              <p>
-                WOW, THIS PAGE <StyledText onMouseOver={this.mouseOver} onMouseOut={this.mouseOut}>
-                Doesn't Exist
-                </StyledText>.
-              </p>
-            </ContentGroup>
-          </Content>
-        </Start>
-      </div>
-    )
-  }
+  return (
+    <div>
+      <Start>
+        <Content>
+          <ContentGroup>
+            <p>
+              WOW, THIS PAGE <StyledText onMouseOver={this.mouseOver} onMouseOut={this.mouseOut}>
+              Doesn't Exist
+              </StyledText>.
+            </p>
+          </ContentGroup>
+        </Content>
+      </Start>
+    </div>
+  )
 }
 
 export default NotFoundPage
