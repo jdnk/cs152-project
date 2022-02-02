@@ -6,13 +6,9 @@ import Filled from '../assets/cursor/filled.svg'
 import {start, Start, rainbow, StyledText, Content, ContentGroup, Parent} from '../components/styles.js'
 
 const NotFoundPage = () => {
-  const [hover, setHover] = useState(false)
+  [hover, setHover] = useState(false)
 
-  mouseOver = () => {
-    setHover(!hover)
-  }
-
-  mouseOut = () => {
+  mouse = () => {
     setHover(!hover)
   }
 
@@ -22,7 +18,7 @@ const NotFoundPage = () => {
         <Content>
           <ContentGroup>
             <p>
-              WOW, THIS PAGE <StyledText onMouseOver={this.mouseOver} onMouseOut={this.mouseOut}>
+              WOW, THIS PAGE <StyledText onMouseOver={this.mouse} onMouseOut={this.mouse}>
               Doesn't Exist
               </StyledText>.
             </p>
