@@ -5,6 +5,7 @@ import {start, Start, rainbow, StyledText, Content, ContentGroup, Parent} from '
 
 const IndexPage = () => {
   return (
+    <main>
     <div>
       <Start>
         <Content>
@@ -26,6 +27,7 @@ const IndexPage = () => {
         </Content>
       </Start>
     </div>
+    </main>
   )
 }
 

@@ -11,6 +11,7 @@ const NotFoundPage = () => {
   }
 
   return (
+    <main>
     <div>
       <Start>
         <Content>
@@ -24,6 +25,7 @@ const NotFoundPage = () => {
         </Content>
       </Start>
     </div>
+    </main>
   )
 }
 
