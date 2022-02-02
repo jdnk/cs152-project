@@ -1,4 +1,5 @@
 import React from 'react'
+import { graphql } from 'gatsby'
 import Link from 'gatsby-link'
 import styled, { keyframes } from 'styled-components'
 import Empty from '../assets/cursor/empty.svg'
