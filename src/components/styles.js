@@ -16,6 +16,8 @@ const start = keyframes`
 `;
 
 const Start = styled.div`
+  height: 100%;
+  background-size: cover;
   opacity: 0;
   animation: ${start} 3s 0.2s cubic-bezier(0.2, 0.8, 0.2, 1);
   animation-fill-mode: forwards;
