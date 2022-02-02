@@ -4,6 +4,10 @@ import styled, { keyframes } from 'styled-components'
 import Empty from '../assets/cursor/empty.svg'
 import Filled from '../assets/cursor/filled.svg'
 
+const Bg = styled.span`
+  background-color: #000000;
+`;
+
 const start = keyframes`
   0% {
     opacity: 0;
@@ -174,6 +178,8 @@ const Sub = styled.div`
 
 const Body = styled.p`
   font-size: 20px;
+  font-family: 'Helvetica', 'Helvetica Neue', 'Arial', sans-serif;
+  color: #ffffff;
 `;
 
 const StyledLink = styled.a`
