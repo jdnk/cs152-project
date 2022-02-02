@@ -2,7 +2,6 @@ import React from 'react'
 import { graphql } from 'gatsby'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
-import favicon from '../assets/images/favicon.png'
 
 import Header from '../components/Header'
 import './index.css'
