@@ -1,0 +1,6 @@
+<svg height="30" width="30">
+  <circle cx="15" cy="15" r="13" stroke="white" stroke-width="1.5" fill="white" opacity="0.8" />
+  <filter width="110%" height="100%">
+  	<feGaussianBlur stdDeviation="2" result="blur" />
+  </filter>
+</svg>

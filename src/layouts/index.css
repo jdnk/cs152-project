@@ -1,0 +1,102 @@
+html {
+  font-family: 'Helvetica', 'Helvetica Neue', 'Arial', sans-serif;
+  color: #ffffff;
+  background-color: #000000;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+
+  ::selection {
+    color: #000000;
+    background-color: #ffffff;
+  }
+}
+
+body {
+  margin: 0;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  -o-hyphens: auto;
+  word-break: break-word;
+}
+
+a {
+  transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+
+  &:link {
+    color: #ffffff;
+    text-decoration: none;
+  }
+
+  &:visited {
+    color: #ffffff;
+    text-decoration: none;
+  }
+
+  &:hover {
+    text-decoration: none;
+    animation: rainbow 20s infinite alternate;
+  }
+
+  &:active {
+    text-decoration: none;
+    animation: rainbow 20s infinite alternate;
+  }
+}
+
+@keyframes rainbow {
+  0% {
+
+    color: #ffe0e0;
+  }
+
+  10% {
+
+    color: #ffe1ac;
+  }
+
+  20% {
+
+    color: #fffaa8;
+  }
+
+  30% {
+
+    color: #bffaa8;
+  }
+
+  40% {
+
+    color: #bff3e0;
+  }
+
+  50% {
+
+    color: #9fe0f8;
+  }
+
+  60% {
+
+    color: 9fbaed;
+  }
+
+  70% {
+
+    color: #ad99d8;
+  }
+  80% {
+
+    color: #9f7af8;
+  }
+
+  90% {
+
+    color: #c48bf6;
+  }
+
+  100% {
+
+    color: #e6b1f6;
+  }
+}
